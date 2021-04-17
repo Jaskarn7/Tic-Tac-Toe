@@ -1,0 +1,44 @@
+body {
+    background-image: url(images/black-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container button {
+    height: 60px;
+    width: 110px;
+    display: inline;
+    cursor: pointer;
+}
+
+.container button:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.container {
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 331px;
+}
+
+#cur_turn {
+    margin-top: 100px;
+    text-align: center;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+#restart {
+    height: 50px;
+    width: 135px;
+    margin-left: 852px;
+    display: inline;
+    color: green;
+}
+
+#restart:hover {
+    border: 1px solid black; 
+    box-shadow: 0px 1px 5px lightblue;
+}
